@@ -109,9 +109,9 @@ az network lb rule create \
   --lb-name $lbName \
   --probe-name $probeName \
   --backend-pool-name $bePoolName \
-  --backend-port 80 \
+  --backend-port 81 \
   --frontend-ip-name loadBalancerFrontEnd \
-  --frontend-port 80 \
+  --frontend-port 82 \
   --protocol tcp \
   --verbose
 
